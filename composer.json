@@ -1,0 +1,25 @@
+{
+    "name": "strong2much/yii2-vk",
+    "type": "yii2-extension",
+    "minimum-stability": "stable",
+    "description": "Helper class to work with Vkontakte services and API",
+    "keywords": ["yii2", "vk", "vkontakte"],
+    "homepage": "https://github.com/strong2much/yii2-vk.git",
+	"license": "BSD-3-Clause",
+    "authors": [
+        {
+          "name": "Denis A. Tatarnikov",
+          "email": "strong2much@gmail.com",
+          "homepage": "https://github.com/strong2much"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "strong2much\\vk\\": "src/"
+        }
+    }
+}
